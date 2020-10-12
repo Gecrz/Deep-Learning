@@ -46,4 +46,14 @@ Use the above to answer the following:
 >
 > Which window size works best for the model?
 
+### Resources
+
+[Keras Sequential Model Guide](https://keras.io/getting-started/sequential-model-guide/)
+
+[Illustrated Guide to LSTMs](https://towardsdatascience.com/illustrated-guide-to-lstms-and-gru-s-a-step-by-step-explanation-44e9eb85bf21)
+
+[Stanford's RNN Cheatsheet](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+
+
+
 
