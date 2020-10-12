@@ -13,3 +13,17 @@ We will need to:
 3. [Evaluate the performance of each model](#evaluate-the-performance-of-each-model)
 
 - - -
+
+### Prepare the data for training and testing
+
+Use the starter code as a guide to create a Jupyter Notebook for each RNN. The starter code contains a function to create the window of time for the data in each dataset.
+
+For the Fear and Greed model, we will use the FNG values to try and predict the closing price. A function is provided in the notebook to help with this.
+
+For the closing price model, we will use previous closing prices to try and predict the next closing price. A function is provided in the notebook to help with this.
+
+Each model will need to use 70% of the data for training and 30% of the data for testing.
+
+Apply a MinMaxScaler to the X and y values to scale the data for the model.
+
+Finally, reshape the X_train and X_test values to fit the model's requirement of samples, time steps, and features. (*example:* `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
